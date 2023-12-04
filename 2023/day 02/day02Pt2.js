@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const lines = fs.readFileSync('docs/day2.txt', 'utf-8').trim().split('\n')
+const lines = fs.readFileSync('./input.txt', 'utf-8').trim().split('\n')
 
 const separateGames = (data) => {
   return data.map(it => it.split(': ')[1])

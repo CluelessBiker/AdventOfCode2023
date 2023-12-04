@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const listArray = fs.readFileSync('docs/day1.txt', 'utf-8').trim().split('\n')
+const listArray = fs.readFileSync('./input.txt', 'utf-8').trim().split('\n')
 
 
 const arrayOfNum = (array) => {
