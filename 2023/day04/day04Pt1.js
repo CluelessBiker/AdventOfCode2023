@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('docs/day3.txt', 'utf-8', (err, data) => {
+fs.readFile('input.txt', 'utf-8', (err, data) => {
 	const lines = data.split('\n').filter((n) => n);
 
 	/**
