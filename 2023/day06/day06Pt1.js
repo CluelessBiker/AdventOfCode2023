@@ -12,10 +12,10 @@ fs.readFile(filePath, 'utf-8', (err, data) => {
   const lines = data.split('\n').filter((n) => n);
 
   const sides = (ind) => {
-	return newSide = lines[ind]
-	  .trim()
-	  .match(/\b\d+\b/g)
-	  .map(Number)
+    return newSide = lines[ind]
+      .trim()
+      .match(/\b\d+\b/g)
+      .map(Number)
 
   }
 
